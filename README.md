@@ -1,16 +1,64 @@
-# React + Vite
+# LBDelivery - Login System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Descrição
+O Login System é uma aplicação Front-End desenvolvida em React com Vite como projeto prático do componente Projeto Prático Web Front-End. O sistema simula um fluxo de autenticação contendo Login, Cadastro, Recuperação de senha e Dashboard protegido.
 
-Currently, two official plugins are available:
+## Tecnologias
+* HTML5
+* CSS3
+* JavaScript
+* React
+* Vite
+* React Router
+* Git e GitHub
+* Figma
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Funcionalidades
+* Login
+* Cadastro de usuário
+* Recuperação de senha
+* Validação de formulários
+* Dashboard
+* Logout
+* Proteção de rota
+* Persistência da autenticação
+* Layout responsivo
 
-## React Compiler
+## Instalação
+Clone o repositório:
+`git clone https://github.com/luanaferreirae/LBDELIVERY.git`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Entre na pasta:
+`cd LBDELIVERY`
 
-## Expanding the Oxlint configuration
+Instale as dependências:
+`npm install`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Executando o projeto
+Execute:
+`npm run dev`
+Depois acesse o endereço apresentado pelo Vite no terminal.
+
+## Estrutura
+```
+src/
+  ├── components/  
+  ├── pages/       
+  ├── routes/      
+  ├── styles/      
+  ├── App.jsx      
+  └── main.jsx     
+```
+
+## Protótipo
+O protótipo da aplicação foi desenvolvido durante a etapa de planejamento do projeto. O protótipo contém as principais telas: Login, Cadastro, Recuperação de senha e Dashboard.
+
+## Testes
+Foram realizados testes de:
+* Login com campos vazios e incorretos
+* Cadastro de novos usuários
+* Recuperação de senha
+* Logout
+* Proteção de rotas (redirecionamento)
+* Responsividade em telas menores
+* Navegação via teclado e acessibilidade básica
