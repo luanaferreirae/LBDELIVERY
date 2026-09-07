@@ -4,13 +4,12 @@
 O Login System é uma aplicação Front-End desenvolvida em React com Vite como projeto prático do componente Projeto Prático Web Front-End. O sistema simula um fluxo de autenticação contendo Login, Cadastro, Recuperação de senha e Dashboard protegido.
 ## Tecnologias
 * HTML5
-* CSS3
-* JavaScript
+* NOdejs
 * React
 * Vite
 * React Router
 * Git e GitHub
-* Figma
+
 ## Funcionalidades
 * Login
 * Cadastro de usuário
